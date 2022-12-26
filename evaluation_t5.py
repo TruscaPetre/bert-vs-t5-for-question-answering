@@ -110,3 +110,4 @@ if __name__ == '__main__':
     f1, exact_match = _test_set.evaluate(
         target_encoded, model_predictions_encoded)
     print(f"\t F1 = {f1:.2f}, EM = {exact_match:.2f}")
+   
